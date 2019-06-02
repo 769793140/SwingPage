@@ -72,9 +72,9 @@ public class demo3 implements TreeSelectionListener {
         //创建树
         DefaultMutableTreeNode root = new DefaultMutableTreeNode("模块选择");
         String Teachers[][] = new String[3][];
-        Teachers[0] = new String[]{"数据预览", "数据导入"};
-        Teachers[1] = new String[]{"胡会强", "张春辉", "张春辉", "张春辉", "张春辉", "张春辉", "张春辉", "张春辉", "张春辉", "张春辉", "张春辉", "张春辉", "张春辉"};
-        Teachers[2] = new String[]{"模型数据分析", "自定义数据分析", "批量数据分析", "批量数据明细分析"};
+        Teachers[0] = new String[]{"数据导入"};
+        Teachers[1] = new String[]{"胡会强", "张春辉"};
+        Teachers[2] = new String[]{"模型数据分析"};
         String gradeNames[] = {"1 数据导入", "2 数据整理", "3 数据分析"};
         DefaultMutableTreeNode node = null;
         DefaultMutableTreeNode childNode = null;
